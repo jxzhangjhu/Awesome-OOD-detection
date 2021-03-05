@@ -22,9 +22,12 @@ In this Git repo, we mainly focus on the OOD detection
 ### Out-of-Distribution(OOD) Detection target
 - A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks  | **[ICLR' 17]** | [`[pdf]`](https://arxiv.org/pdf/1610.02136.pdf)
 
-    > The first paper uses softmax score function and build a baseline for OOD detection on benchmark image dataset 
+    > The first paper uses softmax score function and build a baseline for OOD detection on benchmark image dataset
 
 - [**ODIN**] Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks  | **[ICLR' 18]** | [`[pdf]`](https://arxiv.org/pdf/1706.02690.pdf)
+
+    > Using temperature scaling for score function to separate the ID distribution and OOD distribution easily
+
 - Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples | **[ICLR' 18]** |  [`[pdf]`](https://arxiv.org/pdf/1711.09325.pdf)
 - Learning Confidence for Out-of-Distribution Detection in Neural Networks | **[arXiv' 18]** |  [`[pdf]`](https://arxiv.org/pdf/1802.04865.pdf)
 - Out-of-Distribution Detection using Multiple Semantic Label Representations | **[NIPS' 18]** |  [`[pdf]`](http://papers.nips.cc/paper/7967-out-of-distribution-detection-using-multiple-semantic-label-representations.pdf)
@@ -43,9 +46,17 @@ In this Git repo, we mainly focus on the OOD detection
 - Likelihood Regret: An Out-of-Distribution Detection Score For Variational Auto-encoder | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2003.02977.pdf)
 - OOD-MAML: Meta-Learning for Few-Shot Out-of-Distribution Detection and Classification | **[NeurIPS' 20]**
 - Energy-based Out-of-distribution Detection | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2010.03759.pdf)
+
+    > Use Energy-based model to replace the softmax function
+
 - Towards Maximizing the Representation Gap between In-Domain & Out-of-Distribution Examples | **[NeurIPS' 20]**
 - Why Normalizing Flows Fail to Detect Out-of-Distribution Data | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2006.08545.pdf) | [`[code]`](https://github.com/PolinaKirichenko/flows_ood)
+
+    > Normalizing flow for OOD detection 
+
 - Understanding Anomaly Detection with Deep Invertible Networks through Hierarchies of Distributions and Features | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2006.10848.pdf)
 - Further Analysis of Outlier Detection with Deep Generative Models | **[NeurIPS' 20]**
 - CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2007.08176.pdf) | [`[code]`](https://github.com/alinlab/CSI)
 - SSD: A Unified Framework for Self-Supervised Outlier Detection | **[ICLR' 21]**  [`[pdf]`](https://openreview.net/forum?id=v5gjXpmR8J) | [`[code]`](https://github.com/inspire-group/SSD)
+
+      > SOTA work currently with self-supervised learning. Few OOD samples are used in this work.
