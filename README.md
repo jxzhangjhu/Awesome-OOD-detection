@@ -32,6 +32,9 @@ In this Git repo, we mainly focus on the OOD detection
 - Learning Confidence for Out-of-Distribution Detection in Neural Networks | **[arXiv' 18]** |  [`[pdf]`](https://arxiv.org/pdf/1802.04865.pdf)
 - Out-of-Distribution Detection using Multiple Semantic Label Representations | **[NIPS' 18]** |  [`[pdf]`](http://papers.nips.cc/paper/7967-out-of-distribution-detection-using-multiple-semantic-label-representations.pdf)
 - A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks  | **[NIPS' 18]** |  [`[pdf]`](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks.pdf)
+
+    > Mahalanobis distance-based anomaly score
+
 - Deep Anomaly Detection with Outlier Exposure  | **[ICLR' 19]** |  [`[pdf]`](https://openreview.net/pdf?id=HyxCxhRcY7)
 - Why ReLU networks yield high-confidence predictions far away from the training data and how to mitigate the problem  | **[CVPR' 19]** |  [`[pdf]`](https://arxiv.org/pdf/1812.05720.pdf)
 - Outlier Exposure with Confidence Control for Out-of-Distribution Detection | **[arXiv' 19]** |  [`[pdf]`](https://arxiv.org/abs/1906.03509v2) [`[code]`](https://github.com/nazim1021/OOD-detection-using-OECC)
@@ -52,11 +55,16 @@ In this Git repo, we mainly focus on the OOD detection
 - Towards Maximizing the Representation Gap between In-Domain & Out-of-Distribution Examples | **[NeurIPS' 20]**
 - Why Normalizing Flows Fail to Detect Out-of-Distribution Data | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2006.08545.pdf) | [`[code]`](https://github.com/PolinaKirichenko/flows_ood)
 
-    > Normalizing flow for OOD detection 
+    > Normalizing flow for OOD detection
 
 - Understanding Anomaly Detection with Deep Invertible Networks through Hierarchies of Distributions and Features | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2006.10848.pdf)
 - Further Analysis of Outlier Detection with Deep Generative Models | **[NeurIPS' 20]**
 - CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances | **[NeurIPS' 20]** |  [`[pdf]`](https://arxiv.org/pdf/2007.08176.pdf) | [`[code]`](https://github.com/alinlab/CSI)
+
+- Deep Residual Flow for Out of Distribution Detection | **[CVPR' 20]** |  [`[pdf]`](https://arxiv.org/abs/2001.05419) | [`[code]`](https://github.com/EvZissel/Residual-Flow)
+
+    > Residual normalizing flow for OOD detection
+
 - SSD: A Unified Framework for Self-Supervised Outlier Detection | **[ICLR' 21]**  [`[pdf]`](https://openreview.net/forum?id=v5gjXpmR8J) | [`[code]`](https://github.com/inspire-group/SSD)
 
-      > SOTA work currently with self-supervised learning. Few OOD samples are used in this work.
+    > SOTA work currently with self-supervised learning. Few OOD samples are used in this work.
